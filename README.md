@@ -61,3 +61,5 @@ The following is a list of tested images.
  - [WindowsRecovery.iso](https://hbcd.mirrors.hoobly.com/HBCD_PE_x64.iso)
  - [xubuntu-21.10-desktop-amd64.iso](https://mirror.us.leaseweb.net/ubuntu-cdimage/xubuntu/releases/21.10/release/xubuntu-21.10-desktop-amd64.iso)
  - [Zorin-OS-16-Core.iso](https://mirror.umd.edu/zorin/16/Zorin-OS-16-Core-64-bit-r4.iso)
+
+Want to submit a successfully tested image? Make an issue and use the `tested image` template.
