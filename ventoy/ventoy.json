@@ -1,0 +1,117 @@
+{
+    "theme": {
+        "file": "/ventoy/theme/sleek/theme.txt",
+        "gfxmode": "1920x1080",
+        "display_mode": "GUI",
+        "ventoy_left": "200%",
+        "ventoy_top": "200%",
+        "serial_param": "--unit=0 --speed=9600",
+        "fonts": [
+            "/ventoy/theme/sleek/DejaVuSans-48.pf2",
+            "/ventoy/theme/sleek/DejaVuSans-Regular-14.pf2"
+        ]
+    },
+    "persistence": [  
+        {
+            "image": "/Lubuntu-21.10-Preloaded.iso",
+            "backend": "/persistence/lubuntu_4GB.dat",
+            "autosel": 1            
+        }
+    ],
+    "menu_class": [
+        {
+            "key": "linuxmint",
+            "class": "linuxmint"
+        },
+	    {
+	        "key": "Parrot-home",
+	        "class": "parrot"
+	    },
+        {
+            "key": "Lubuntu",
+            "class": "lubuntu"
+        },        
+        {
+            "key": "ubuntu",
+            "class": "ubuntu"
+        },
+        {
+            "key": "Windows",
+            "class": "windows"
+        },
+        {
+            "key": "Zorin-OS",
+            "class": "linux"
+        },
+        {
+            "key": "pop-os",
+            "class": "pop-os"
+        },
+        {
+            "key": "Lakka",
+            "class": "unknown"
+        },
+        {   
+            "key": "MXlinux",
+            "class": "linux"
+        },
+        {   
+            "key": "RockyLinux",
+            "class": "linux"
+        },
+        {
+            "key": "endeavouros",
+            "class": "endeavouros"
+        },
+        {
+            "key": "elementaryos-6.0-stable.20211103",
+            "class": "elementary"
+        },
+        {
+            "key": "xubuntu",
+            "class": "xubuntu"
+        }
+    ],
+    "menu_alias": [
+        {
+            "image": "/Lakka-Generic.x86_64-3.6.img",
+            "alias": "Lakka 3.6"
+        },
+        {
+            "image": "/Lubuntu-21.10-Preloaded.iso",
+            "alias": "Lubuntu 21.10"
+        },
+        {
+            "image": "/MXlinux-21_x64.iso",
+            "alias": "MX Linux 2021"
+        },
+        {
+            "image": "/pop-os_21.04_amd64_intel_10.iso",
+            "alias": "Pop!_OS 21.04"
+        },
+        {
+            "image": "/WindowsRecovery.iso",
+            "alias": "Hiren’s BootCD PE (Windows Recovery Tools)"
+        },
+        {
+            "image": "/Zorin-OS-16-Core.iso",
+            "alias": "Zorin OS Core 16"
+        },
+        {
+            "image": "/endeavouros-2021.08.27-x86_64.iso",
+            "alias": "Endeavouros 2021.08.27"
+        },
+        {
+            "image": "/elementaryos-6.0-stable.20211103.iso",
+            "alias": "Elementary OS Odin 6.0"
+        },
+        {
+            "image": "/Parrot-home-4.11.3_amd64.iso",
+            "alias": "Parrot Linux Home 4.11.3"
+        },
+        {
+            "image": "/xubuntu-21.10-desktop-amd64.iso",
+            "alias": "Xubuntu 21.10 Desktop"
+        }
+    ]
+}
