@@ -2,6 +2,12 @@
 An All-In-One bootable USB drive that works on any architecture and contains many useful tools.
 
 ## Installation / Quickstart
+
+### Prequisites
+ - [7-zip](https://www.7-zip.org/)
+ - A USB drive or SD/MicroSD card with a minimum of 8GB on it (for the lightest of installation weights). 32-128GB drives are *HIGHLY* recommended for a better experience.
+
+### Let's get started!
  - Download the repo and extract it somewhere. 
  - Download Ventoy (can be found [here](https://www.ventoy.net/en/index.html)) and run it.
  - It will present you with a screen that looks like this:
@@ -18,6 +24,9 @@ An All-In-One bootable USB drive that works on any architecture and contains man
  - Go into the folder of images you just downloaded and find `persistence_xfs_4GB_casper-rw.dat` and copy it to the `persistence` folder on your USB drive. 
  - Almost done! 
  - Now, rename that fine EXACTLY to `lubuntu_4GB.dat`. Done! 
+Now, go into your BIOS and boot from the drive! You should be presented with a screen like this:
+![image](https://user-images.githubusercontent.com/62612165/142459343-f5210965-6b69-4c1a-ad0e-d1ef8f16c139.png)
+If you don't see a screen looking similar to that, you've done something wrong.
  
 #### To add more operating systems, see below.
 
